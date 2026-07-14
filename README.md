@@ -19,7 +19,7 @@
 
 ## 💡 What is RepoRevive?
 
-**RepoRevive** is an AI-powered marketplace where developers can **buy, sell, collaborate, and revive abandoned software projects** through secure ownership transfers, AI analysis, integrated messaging, and verified digital certificates.
+**RepoRevive** is a marketplace where developers can buy, sell, collaborate, and revive abandoned software projects through secure ownership transfers, integrated messaging, and verified digital certificates.
 
 Instead of letting unfinished repositories disappear into GitHub archives, RepoRevive gives them a new beginning.
 
@@ -101,7 +101,6 @@ Instead of leaving unfinished projects behind, developers can now:
 - 🤝 Find collaborators to continue development
 - 🔄 Transfer ownership securely
 - 💬 Communicate directly with buyers and sellers
-- 🤖 Analyze repositories using AI
 - 📄 Receive digitally verified ownership certificates
 - 💳 Complete secure online payments
 
@@ -126,22 +125,6 @@ A software repository should be able to do the same.
 ---
 
 # ✨ Key Features
-
-## 🤖 AI Project Health Analyzer
-
-Understand the overall quality of a repository before making a decision.
-
-The AI analyzes repositories and provides insights about:
-
-- Project maintainability
-- Documentation quality
-- Repository health
-- Development status
-- Scalability
-- Missing components
-- Suggested improvements
-
----
 
 ## 🛒 Software Project Marketplace
 
@@ -295,18 +278,6 @@ Features:
 
 ---
 
-## 🤖 AI Integration
-
-RepoRevive leverages Artificial Intelligence for repository analysis by providing:
-
-- Repository Health Analysis
-- Risk Detection
-- Codebase Evaluation
-- Maintainability Insights
-- Improvement Suggestions
-
----
-
 # 📂 Project Structure
 
 ```
@@ -358,10 +329,10 @@ RepoRevive
                    └──────────┬──────────┘
                               │
           ┌───────────────────┼────────────────────┐
-          │                   │                    │
-          ▼                   ▼                    ▼
-     MongoDB             Razorpay             AI Services
-    User Data            Payments          Repository Analysis
+          │                                        │
+          ▼                                        ▼
+     MongoDB                                    Razorpay
+    User Data                                   Payments
 ```
 
 ---
@@ -373,9 +344,6 @@ Developer uploads project
             │
             ▼
 Project published
-            │
-            ▼
-AI analyzes repository
             │
             ▼
 Visible in Marketplace
@@ -687,77 +655,6 @@ http://localhost:3000
 
 ---
 
-# 📸 Application Preview
-
-> Replace these screenshots with your own after deployment.
-
-## 🏠 Landing Page
-
-<img src="screenshots/landing.png" width="100%">
-
----
-
-## 🛒 Marketplace
-
-<img src="screenshots/marketplace.png" width="100%">
-
----
-
-## 📄 Project Details
-
-<img src="screenshots/project-details.png" width="100%">
-
----
-
-## 👨‍💻 Developer Profile
-
-<img src="screenshots/developer-profile.png" width="100%">
-
----
-
-## 💬 Chat System
-
-<img src="screenshots/chat.png" width="100%">
-
----
-
-## 💳 Secure Payment
-
-<img src="screenshots/payment.png" width="100%">
-
----
-
-## 📜 Ownership Certificate
-
-<img src="screenshots/certificate.png" width="100%">
-
----
-
-# 🌟 Future Enhancements
-
-RepoRevive is just getting started.
-
-Some exciting features planned for future releases include:
-
-- GitHub OAuth Login
-- Direct Repository Import from GitHub
-- AI-based Repository Valuation
-- Escrow Payment System
-- Real-Time Chat using Socket.IO
-- Notifications
-- Email Integration
-- Developer Ratings & Reviews
-- Repository Watchlist
-- AI Project Recommendation Engine
-- Repository Analytics Dashboard
-- Multi-owner Repository Support
-- Dark/Light Theme
-- Admin Dashboard
-- Project Version History
-- Open Source Sponsorship
-
----
-
 # 🤝 Contributing
 
 Contributions are always welcome!
@@ -796,39 +693,11 @@ We appreciate every contribution that helps make RepoRevive better.
 
 ---
 
-# 📜 License
-
-This project is licensed under the MIT License.
-
-You are free to use, modify and distribute this project under the terms of the license.
-
----
 
 # 👩‍💻 Developed By
 
 ## Utkarsha Fole
 
-**B.Tech Computer Science & Engineering**
-
-UIT RGPV, Bhopal
-
-### Connect with me
-
-- 💼 LinkedIn
-- 💻 GitHub
-- 🌐 Portfolio
-
----
-
-# 💙 A Small Request
-
-If you found this project helpful,
-
-please consider giving it a ⭐ on GitHub.
-
-It motivates developers to build more impactful open-source projects.
-
----
 
 # 🌱 One Repository Ends.
 
