@@ -20,7 +20,7 @@ connectDB()
 app.use(express.json());
 app.use(cors({
     origin: [
-        "http://localhost:3000"
+        "http://localhost:3000", "https://reporevive.onrender.com"
     ],
     credentials: true
 }));   // it enables modern web applications to interact with different apis across the internet, regardless of their origin. It allows web applications to make requests to a different domain than the one that served the web page, which is essential for accessing APIs and resources hosted on other servers.
