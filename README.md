@@ -17,6 +17,32 @@
 
 ---
 
+# 🌐 Live Demo
+
+Experience RepoRevive in action!
+
+### 🖥️ Frontend (Live Application)
+
+🔗 **https://reporevive.onrender.com**
+
+> Browse the marketplace, upload projects, send ownership or collaboration requests, chat with developers, complete secure payments, and receive digital ownership certificates.
+
+---
+
+### ⚙️ Backend (REST API)
+
+🔗 **https://reporevive-backend.onrender.com**
+
+> Powers authentication, project management, requests, messaging, payments, certificate generation, and all backend services.
+
+---
+
+> **Note**
+>
+> The backend is exposed as a REST API and is intended to be consumed by the frontend application. Visiting the API URL directly will only display the backend status endpoint.
+
+---
+
 ## 💡 What is RepoRevive?
 
 **RepoRevive** is a marketplace where developers can buy, sell, collaborate, and revive abandoned software projects through secure ownership transfers, integrated messaging, and verified digital certificates.

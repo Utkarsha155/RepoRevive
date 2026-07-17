@@ -114,8 +114,7 @@ export default function CertificatePage() {
     return (
 
         <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-            <div className="rounded-2xl border-2 border-violet-600 bg-white p-5 shadow-2xl sm:rounded-3xl sm:p-8 lg:p-10">
-                <div className="text-center">
+<div className="rounded-2xl border-2 border-violet-600 bg-white text-gray-900 p-5 shadow-2xl sm:rounded-3xl sm:p-8 lg:p-10">                <div className="text-center">
 
                     <Award
                         size={56}
