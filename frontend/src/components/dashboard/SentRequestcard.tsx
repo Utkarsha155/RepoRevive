@@ -20,7 +20,6 @@ export default function SentRequestCard({ request }: { request: any }) {
         verifyPayment,
         demoPayment
     } = usePayment();
-    const isDevelopment = process.env.NODE_ENV === "development";
     const handleCancel = async () => {
 
         if (!confirm("Cancel this request?")) return;
@@ -335,18 +334,12 @@ export default function SentRequestCard({ request }: { request: any }) {
 
                                 </button>
 
-                                {isDevelopment && (
-
-                                    <button
-                                        onClick={handleDemoPayment}
-                                        className="rounded-xl bg-blue-600 w-full sm:w-auto px-4 py-3 text-sm font-medium text-white hover:bg-blue-500"
-                                    >
-
-                                        Demo Payment
-
-                                    </button>
-
-                                )}
+                                <button
+                                    onClick={handleDemoPayment}
+                                    className="rounded-xl bg-blue-600 w-full sm:w-auto px-4 py-3 text-sm font-medium text-white hover:bg-blue-500"
+                                >
+                                    Demo Payment
+                                </button>
 
                             </>
 

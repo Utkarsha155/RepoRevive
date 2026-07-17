@@ -18,7 +18,7 @@ export default function Hero() {
 
         {/* Purple Glow */}
 
-        <div className="absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-700/20 blur-[140px]" />
+        <div className="absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-700/20 blur-3xl" />
 
       </div>
 
@@ -78,7 +78,7 @@ export default function Hero() {
         >
 
           <Link
-            href="/login"
+            href="/auth/signup"
             className="group flex items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-violet-600 to-purple-500 px-8 py-4 text-lg font-semibold text-white shadow-[0_0_40px_rgba(139,92,246,.35)] transition hover:scale-105"
           >
 
@@ -92,7 +92,7 @@ export default function Hero() {
           </Link>
 
           <Link
-            href="/marketplace"
+            href="/dashboard/marketplace"
             className="rounded-xl border border-violet-500/30 bg-white/5 px-8 py-4 text-lg font-medium text-white backdrop-blur-sm transition hover:bg-violet-500/10"
           >
             Browse Projects
